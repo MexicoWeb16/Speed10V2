@@ -1,0 +1,402 @@
+page-home 
+{
+	@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+	#backgroundDiv
+	{
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		height: 100%;
+		width: 100%;
+		z-index: -3;
+
+		background: linear-gradient(190deg, #1c0678, #a176f9, #cef6ff);
+		background-size: 600% 600%;
+
+		-webkit-animation: AnimationName 25s ease infinite;
+		-moz-animation: AnimationName 25s ease infinite;
+		animation: AnimationName 25s ease infinite;
+	}
+
+	@-webkit-keyframes AnimationName 
+	{
+		0%{background-position:36% 0%}
+		50%{background-position:65% 100%}
+		100%{background-position:36% 0%}
+	}
+	@-moz-keyframes AnimationName 
+	{
+		0%{background-position:36% 0%}
+		50%{background-position:65% 100%}
+		100%{background-position:36% 0%}
+	}
+	@keyframes AnimationName 
+	{ 
+		0%{background-position:36% 0%}
+		50%{background-position:65% 100%}
+		100%{background-position:36% 0%}
+	}
+	#titleScreen
+	{
+		position: absolute;
+		top: 25%;
+		left: 15%;
+		width: 100%;
+	}
+
+	#title
+	{
+		color: antiquewhite;
+		font-family: "Varela Round";
+		font-size: 24pt;
+		font-style: italic;
+
+		span
+		{
+			position: relative;
+			bottom: 0;
+		}
+	}
+
+	#span1 
+	{
+		left: 0;
+		-webkit-animation: bounce1 3s ease-in-out infinite running;
+		-moz-animation: bounce1 3s ease-in-out infinite running;
+		animation: bounce1 3s ease-in-out infinite running;
+	}
+
+	#span2 
+	{
+		left: 2px;
+		-webkit-animation: bounce2 3s ease-in-out infinite running;
+		-moz-animation: bounce2 3s ease-in-out infinite running;
+		animation: bounce2 3s ease-in-out infinite running;
+	}
+
+	#span3 
+	{
+		left: 4px;
+		-webkit-animation: bounce3 3s ease-in-out infinite running;
+		-moz-animation: bounce3 3s ease-in-out infinite running;
+		animation: bounce3 3s ease-in-out infinite running;
+	}
+
+	#span4 
+	{
+		left: 6px;
+		-webkit-animation: bounce4 3s ease-in-out infinite running;
+		-moz-animation: bounce4 3s ease-in-out infinite running;
+		animation: bounce4 3s ease-in-out infinite running;
+	}
+
+	#span5 
+	{
+		left: 8px;
+		-webkit-animation: bounce5 3s ease-in-out infinite running;
+		-moz-animation: bounce5 3s ease-in-out infinite running;
+		animation: bounce5 3s ease-in-out infinite running;
+	}
+
+	#span6 
+	{
+		left: 12px;
+		-webkit-animation: bounce6 3s ease-in-out infinite running;
+		-moz-animation: bounce6 3s ease-in-out infinite running;
+		animation: bounce6 3s ease-in-out infinite running;
+	}
+
+	#span7 
+	{
+		left: 14px;
+		-webkit-animation: bounce7 3s ease-in-out infinite running;
+		-moz-animation: bounce7 3s ease-in-out infinite running;
+		animation: bounce7 3s ease-in-out infinite running;
+	}
+
+	@-webkit-keyframes bounce1
+	{
+		0% {bottom:0}
+		5% {bottom: 15px}
+		10% {bottom: 0}
+	}
+
+	@-moz-keyframes bounce1
+	{
+		0% {bottom:0}
+		5% {bottom: 15px}
+		10% {bottom: 0}
+	}
+
+	@keyframes bounce1
+	{
+		0% {bottom:0}
+		5% {bottom: 15px}
+		10% {bottom: 0}
+	}
+
+	@-webkit-keyframes bounce2
+	{
+		5% {bottom:0}
+		10% {bottom: 15px}
+		15% {bottom: 0}
+	}
+
+	@-moz-keyframes bounce2
+	{
+		5% {bottom:0}
+		10% {bottom: 15px}
+		15% {bottom: 0}
+	}
+
+	@keyframes bounce2
+	{
+		5% {bottom:0}
+		10% {bottom: 15px}
+		15% {bottom: 0}
+	}
+
+	@-webkit-keyframes bounce3
+	{
+		10% {bottom:0}
+		15% {bottom: 15px}
+		20% {bottom: 0}
+	}
+
+	@-moz-keyframes bounce3
+	{
+		10% {bottom:0}
+		15% {bottom: 15px}
+		20% {bottom: 0}
+	}
+
+	@keyframes bounce3
+	{
+		10% {bottom:0}
+		15% {bottom: 15px}
+		20% {bottom: 0}
+	}
+
+	@-webkit-keyframes bounce4
+	{
+		15% {bottom:0}
+		20% {bottom: 15px}
+		25% {bottom: 0}
+	}
+
+	@-moz-keyframes bounce4
+	{
+		15% {bottom:0}
+		20% {bottom: 15px}
+		25% {bottom: 0}
+	}
+
+	@keyframes bounce4
+	{
+		15% {bottom:0}
+		20% {bottom: 15px}
+		25% {bottom: 0}
+	}
+
+	@-webkit-keyframes bounce5
+	{
+		20% {bottom:0}
+		25% {bottom: 15px}
+		30% {bottom: 0}
+	}
+
+	@-moz-keyframes bounce5
+	{
+		20% {bottom:0}
+		25% {bottom: 15px}
+		30% {bottom: 0}
+	}
+
+	@keyframes bounce5
+	{
+		20% {bottom:0}
+		25% {bottom: 15px}
+		30% {bottom: 0}
+	}
+
+	@-webkit-keyframes bounce6
+	{
+		25% {bottom:0}
+		30% {bottom: 15px}
+		35% {bottom: 0}
+	}
+
+	@-moz-keyframes bounce6
+	{
+		25% {bottom:0}
+		30% {bottom: 15px}
+		35% {bottom: 0}
+	}
+
+	@keyframes bounce6
+	{
+		25% {bottom:0}
+		30% {bottom: 15px}
+		35% {bottom: 0}
+	}
+
+	@-webkit-keyframes bounce7
+	{
+		30% {bottom:0}
+		35% {bottom: 15px}
+		40% {bottom: 0}
+	}
+
+	@-moz-keyframes bounce7
+	{
+		30% {bottom:0}
+		35% {bottom: 15px}
+		40% {bottom: 0}
+	}
+
+	@keyframes bounce7
+	{
+		30% {bottom:0}
+		35% {bottom: 15px}
+		40% {bottom: 0}
+	}
+
+	.startButtons
+	{
+		width: 50%;
+		color: antiquewhite;
+		background: linear-gradient(34deg, #1c0678, #a176f9, #cef6ff);
+		background-size: 600% 600%;
+
+		-webkit-animation: ButtonAnimate 15s ease infinite;
+		-moz-animation: ButtonAnimate 15s ease infinite;
+		animation: ButtonAnimate 15s ease infinite;
+	}
+
+	#boardButton
+	{
+		position: absolute;
+		top:-20%;
+		left: 50%;
+	}
+
+	#openButton
+	{
+		width: 100px;
+		height: 50px;
+		font-size: 9pt;
+		color: antiquewhite;
+
+		background: linear-gradient(34deg, #1c0678, #a176f9, #cef6ff);
+		background-size: 600% 600%;
+
+		-webkit-animation: ButtonAnimate 15s ease infinite;
+		-moz-animation: ButtonAnimate 15s ease infinite;
+		animation: ButtonAnimate 15s ease infinite;
+	}
+
+	#leaderBoard
+	{
+		z-index: -1;
+		opacity: 0;
+		position: absolute;
+		top: -20px;
+		left: -20px;
+		transform: scale(0.8);
+		background: linear-gradient(34deg, #1c0678, #a176f9, #cef6ff);
+		height: 100%;
+		width: 100%;
+		border-radius: 10px;
+		padding: 5px;
+		
+		#button
+		{
+			position: absolute;
+			top: -30px;
+			right: -30px;
+			
+			button
+			{
+				background: linear-gradient(34deg, #1c0678, #a176f9, #cef6ff);
+				color: antiquewhite;
+			}
+		}
+		
+		.boards
+		{
+			height: 200px;
+			width: 100%;
+			overflow-y: auto;
+		}
+		
+		table
+		{
+			border-collapse: collapse;
+		}
+		
+		th, td
+		{
+			padding-right: 30px;
+			padding-bottom: 20px;
+			text-align: left;
+			border: 1px solid black;
+		}
+		
+		th
+		{
+			font-size: 16pt;
+			font-style: italic;
+		}
+		
+		tr:nth-child(even)
+		{
+			background-color: #f2f2f2
+		}
+		
+		#buttonHolder
+		{
+			background: linear-gradient(90deg, #a176f9, #cef6ff);
+		}
+		
+		.boardButtons
+		{
+			background: linear-gradient(75deg, #1c0678, #a176f9, #cef6ff);
+			border: 1px solid white;
+			color: antiquewhite;
+			font-family: "Varela Round";
+			font-size: 13pt;
+			border-radius: 10px;
+		}
+		
+		#first
+		{
+			background: linear-gradient(34deg, #1c0678, #a176f9, #cef6ff);
+			color: violet;
+			font-style: italic;
+		}
+
+		#fastBoard, #slowBoard, #timeBoard
+		{
+			display:none;
+		}
+
+		@-webkit-keyframes ButtonAnimate 
+		{
+			0%{background-position:7% 0%}
+			50%{background-position:94% 100%}
+			100%{background-position:7% 0%}
+		}
+		@-moz-keyframes ButtonAnimate 
+		{
+			0%{background-position:7% 0%}
+			50%{background-position:94% 100%}
+			100%{background-position:7% 0%}
+		}
+		@keyframes ButtonAnimate 
+		{ 
+			0%{background-position:7% 0%}
+			50%{background-position:94% 100%}
+			100%{background-position:7% 0%}
+		}
+	}
+}

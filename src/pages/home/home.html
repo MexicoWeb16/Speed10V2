@@ -1,0 +1,90 @@
+<ion-content padding>
+	<div id = "backgroundDiv"></div>
+  <div id = "titleScreen">
+	<ion-title><div id = "title">
+		<span id = "span1">S</span>
+		<span id = "span2">p</span>
+		<span id = "span3">e</span>
+		<span id = "span4">e</span>
+		<span id = "span5">d</span>   
+		<span id = "span6">1</span>
+		<span id = "span7">0</span></div>
+	</ion-title><br /><br />
+	
+	
+	<button ion-button round outline color = "dark" class = "startButtons" (click) = "startGame(16)">Sanic Speed Round</button><br /><br />
+	
+	<button ion-button round outline color = "dark" class = "startButtons" (click) = "startGame(31)">Fast Round</button><br /><br />
+	
+	<button ion-button round outline color = "dark" class = "startButtons" (click) = "startGame(61)">Slow Round</button><br /><br />
+
+	<button ion-button round outline color = "dark" class = "startButtons" (click) = "startGame(121)">Take Your Time</button><br /><br />
+	
+	
+	<div id = "boardButton">
+		<button ion-button round outline id = "openButton" color = "dark" (click) = "showLeaderboard()">View<br /> LeaderBoard</button>
+	</div>
+  </div>
+  
+  <div [@fade] = "fadeState" id = "leaderBoard">
+		<div id = "button">
+			<button ion-button round icon-only id = "closeButton" (click) = "hideLeaderboard()"><ion-icon name="close"></ion-icon></button>
+		</div>	
+		<div id = "boardDisplay">
+			<div id = "errorMessage">No Internet Connection</div>
+			
+			<div id = "board">
+				<div id = "buttonHolder">
+					<button class = "boardButtons" id = "first">Sanic Speed Round</button>
+					<button class = "boardButtons">Fast Round</button>
+					<button class = "boardButtons">Slow Round</button>
+					<button class = "boardButtons">Take Your Time</button>
+				</div><br />
+				<div class = "boards" id = "sanicBoard">
+					<table>
+						<tr>
+							<th>Rank</th>
+							<th>Username</th>
+							<th>Score</th>
+						</tr>
+									
+					</table>
+				</div>
+							
+				<div class = "boards" id = "fastBoard">
+					<table>
+						<tr>
+							<th>Rank</th>
+							<th>Username</th>
+							<th>Score</th>
+						</tr>
+									
+					</table>
+				</div>
+							
+				<div class = "boards" id = "slowBoard">
+					<table>
+						<tr>
+							<th>Rank</th>
+							<th>Username</th>
+							<th>Score</th>
+						</tr>
+									
+					</table>
+				</div>
+							
+				<div class = "boards" id = "timeBoard">
+					<table>
+						<tr>
+							<th>Rank</th>
+							<th>Username</th>
+							<th>Score</th>
+						</tr>
+									
+					</table>
+				</div>
+						
+			</div>
+		</div>
+	</div>
+</ion-content>

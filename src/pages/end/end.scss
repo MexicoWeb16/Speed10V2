@@ -1,0 +1,99 @@
+page-end 
+{
+    #backgroundDiv
+	{
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		height: 100%;
+		width: 100%;
+		z-index: -3;
+
+		background: linear-gradient(10deg, #1c0678, #a176f9, #cef6ff);
+		background-size: 600% 600%;
+
+		-webkit-animation: AnimationName 25s ease infinite;
+		-moz-animation: AnimationName 25s ease infinite;
+		animation: AnimationName 25s ease infinite;
+	}
+
+	@-webkit-keyframes AnimationName 
+	{
+		0%{background-position:36% 0%}
+		50%{background-position:65% 100%}
+		100%{background-position:36% 0%}
+	}
+	@-moz-keyframes AnimationName 
+	{
+		0%{background-position:36% 0%}
+		50%{background-position:65% 100%}
+		100%{background-position:36% 0%}
+	}
+	@keyframes AnimationName 
+	{ 
+		0%{background-position:36% 0%}
+		50%{background-position:65% 100%}
+		100%{background-position:36% 0%}
+	}
+
+    div
+    {
+        position: absolute;
+        left: 30%;
+        font-family: "Indie Flower";
+        font-size: 24pt;
+        color: #8c8c8c;
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    #fScoreHolder
+    {
+        top: 25%;
+    }
+
+    #hScoreHolder
+    {
+        top: 45%;
+    }
+
+    #buttonHolder
+    {
+        top:65%;
+        width: 100%;
+    }
+
+    #finalButton
+    {
+        width: 50%;
+		color: antiquewhite;
+		background: linear-gradient(190deg, #1c0678, #a176f9, #cef6ff);
+		background-size: 600% 600%;
+
+		-webkit-animation: ButtonAnimate 15s ease infinite;
+		-moz-animation: ButtonAnimate 15s ease infinite;
+		animation: ButtonAnimate 15s ease infinite;
+    }
+
+    @-webkit-keyframes ButtonAnimate 
+	{
+		0%{background-position:7% 0%}
+		50%{background-position:94% 100%}
+		100%{background-position:7% 0%}
+	}
+	
+    @-moz-keyframes ButtonAnimate 
+	{
+		0%{background-position:7% 0%}
+		50%{background-position:94% 100%}
+		100%{background-position:7% 0%}
+	}
+		
+    @keyframes ButtonAnimate 
+	{ 
+		0%{background-position:7% 0%}
+		50%{background-position:94% 100%}
+		100%{background-position:7% 0%}
+	}
+
+}

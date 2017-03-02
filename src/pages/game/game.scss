@@ -1,0 +1,115 @@
+page-game 
+{
+	@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+	#background
+	{
+		position: absolute;
+		top: 0%;
+		left: 0%;
+		height: 100%;
+		width: 100%;
+		z-index: -3;
+
+		background: linear-gradient(190deg, #1c0678, #a176f9, #cef6ff);
+	}
+	.gamePieces
+	{
+		border: 1px solid black;
+		background: linear-gradient(190deg, #002266, #4d88ff);
+		height: 25%;
+
+		div:not(.valueHolder)
+		{
+			position: relative;
+			margin: auto;
+			margin-top: 25%;
+			width: 70%;
+			height: 70%;
+			background: linear-gradient(10deg, #003399, #b3ccff);
+		}
+	}
+	.valueHolder
+	{
+		text-align: justify;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 18pt;
+		font-family: "Indie Flower";
+		color: #e6e6e6;
+		font-weight: bold;
+	}
+	
+	#pieceHolder
+	{
+		text-align: justify;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 10%;
+		height: 70%;
+		width: 77.45%;
+		-webkit-column-count: 4; /* Chrome, Safari, Opera */
+		-moz-column-count: 4; /* Firefox */
+		column-count: 4;
+		-webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+		-moz-column-gap: 0px; /* Firefox */
+		column-gap: 0px;
+	}
+	
+	#scoreDisplayHolder, #highScoreDisplayHolder, #timeDisplay
+	{
+		position: absolute;
+		font-size: 14pt;
+		font-family: "Indie Flower";
+		font-style: italic;
+		color: #8c8c8c;
+	}
+	
+	#highScoreDisplay, #scoreDisplay
+	{
+		text-align: center;
+	}
+	
+	#scoreDisplayHolder
+	{
+		left: 10%;
+		top: 90%;
+	}
+	
+	#highScoreDisplayHolder
+	{
+		left: 10%;
+		top: 80%;
+	}
+	
+	#countdownBackground
+	{
+		position: absolute;
+		top: 0px;
+		left:0px;
+		height: 100%;
+		width: 100%;
+		background-color: black;
+		z-index: 3;
+		opacity: .7;
+	}
+
+	#countdown
+	{
+		opacity: 1;
+		position:absolute;
+		top: 20%;
+		left: 30%;
+		font-size: 128pt;
+		font-family: "Indie Flower";
+		color: gold;
+		z-index: 4;
+	}
+
+	#timeDisplay
+	{
+		position: absolute;
+		top: 0%;
+		left: 0%;
+	}
+}
